@@ -11,7 +11,7 @@ def dividir(x, y):
     if y != 0:
         return x / y
     else:
-        return "Error: División por cero"
+        return "Error"
     
 def calculadora():
     print("Seleccione una operación:")
@@ -21,7 +21,7 @@ def calculadora():
     print("4. Dividir")
 
     # Obtener la elección del usuario
-    eleccion = input("Ingrese el número de la operación que desee realizar (1/2/3/4): ")
+    eleccion = input("Ingrese el número de la operación que desee realizar (1-2-3-4): ")
 
     # Verificar si la elección es válida
     if eleccion in ['1', '2', '3', '4']:
